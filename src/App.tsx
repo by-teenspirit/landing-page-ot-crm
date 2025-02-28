@@ -24,9 +24,11 @@ function App() {
               <Rocket className="h-8 w-8 text-blue-600 bg-blue" />
               <span className="text-xl font-bold text-gray-900">OT-CRM</span>
             </div>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
-              Contactez-nous
-            </button>
+            <a href="mailto:contact@jlconsulting.fr">
+              <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+                Contactez-nous
+              </button>
+            </a>
           </div>
         </div>
       </header>
@@ -44,9 +46,11 @@ function App() {
               organisez les séminaires, planifiez les guides et pilotez
               adhésions, devis et campagnes marketing en toute fluidité.
             </p>
-            <button className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors">
-              Réserver une démo
-            </button>
+            <a href="https://calendly.com/b-lelac-jlconsulting/30min">
+              <button className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors">
+                Réserver une démo
+              </button>
+            </a>
           </div>
           <div className="relative rounded-2xl overflow-hidden">
             <img
@@ -312,9 +316,11 @@ function App() {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
             Prêt à moderniser votre Office de Tourisme ?
           </h2>
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors">
-            Contactez-nous dès aujourd'hui
-          </button>
+          <a href="mailto:contact@jlconsulting.fr">
+            <button className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors">
+              Contactez-nous dès aujourd'hui
+            </button>
+          </a>
         </div>
       </section>
 
