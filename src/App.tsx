@@ -54,7 +54,7 @@ function App() {
           </div>
           <div className="relative rounded-2xl overflow-hidden">
             <img
-              src="src\assets\office-du-tourisme-de-bordeaux-shadow.png"
+              src="assets/office-du-tourisme-de-bordeaux-shadow.png"
               alt="Office de tourisme moderne"
               className="w-full h-full object-cover"
             />
@@ -282,13 +282,13 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="relative rounded-2xl overflow-hidden">
               <img
-                src="src\assets\marketing-extra.png"
+                src="assets/marketing-extra.png"
                 alt="Office de tourisme moderne"
               />
             </div>{" "}
             <div className="relative rounded-2xl overflow-hidden">
               <img
-                src="src\assets\app-soft-shadow.png"
+                src="assets/app-soft-shadow.png"
                 alt="Office de tourisme moderne"
                 className="w-full h-full object-cover"
               />
